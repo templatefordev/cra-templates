@@ -7,13 +7,14 @@
       "test:unit:coverage": "react-scripts test --coverage",
       "prettier:check": "prettier --check './**/*.{ts,tsx,js,jsx}'",
       "prettier:write": "prettier --write './**/*.{ts,tsx,js,jsx}'",
-      "eslint:check": "eslint --max-warnings 0 --ext .js,.ts,.tsx './'"
+      "eslint:check": "eslint --max-warnings 0 --ext .js,.jsx,.ts,.tsx './'"
     },
     "dependencies": {
       "react": "18.2.0",
       "react-dom": "18.2.0"
     },
     "devDependencies": {
+      "@templatefor.dev/react-scripts": "^5.1.0",
       "@testing-library/jest-dom": "5.16.5",
       "@testing-library/react": "13.4.0",
       "@testing-library/user-event": "14.4.3",
