@@ -3,9 +3,9 @@
 cra-template-base: typescript, prettier
 
 ```bash
-yarn create react-app awesome-app --template @templatefor.dev/cra-template-base
+yarn create react-app awesome-app --template @templatefor.dev/cra-template-base --scripts-version @templatefor.dev/react-scripts
 ```
 
 ```bash
-npx create-react-app awesome-app --template @templatefor.dev/cra-template-base
+npx create-react-app awesome-app --template @templatefor.dev/cra-template-base --scripts-version @templatefor.dev/react-scripts
 ```
